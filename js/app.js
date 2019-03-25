@@ -38,4 +38,24 @@ const seiClass = {
 seiClass.student.favoriteTv = "big bang"
 seiClass.student1.favoriteTv = "broklyn 99"
 
-console.log(seiClass)
+// console.log(seiClass)
+
+
+// Make an array that holds all of the colors of the rainbow.
+// Write code that will access "blue" from the rainbow array.
+// Make an object that is called your name and holds the information about your favorite food, a hobby,
+// the name of the town that you live in currently, and your favorite datatype.
+
+// Write code that will access your hobby from the object that you just created.
+
+const raindow = ["red","orange","yellow","green","blue","indigo","violet"]
+console.log(raindow[4]);
+
+const jomar = {
+  food: "kbbq",
+  hobby: "video games",
+  location: "la puente",
+  favoriteDataType: "boolean"
+}
+
+console.log(jomar.hobby)
