@@ -172,4 +172,13 @@ for(key in bondFilms){
     oddBonds.push(bondFilms[key].title)
   }
 }
-console.log(oddBonds)
+// console.log(oddBonds)
+
+// Determine the total cumulative gross of the Bond franchise, and console.log the result.
+let total = 0
+for(key in bondFilms){
+  // console.log(bondFilms[key].gross)
+  total += (+bondFilms[key].gross.slice(1).replace(/,/g,''))
+}
+
+ console.log(total)
